@@ -6,18 +6,11 @@
 
 This program automates renaming multiple files in a folder by replacing a specified part of their names with a new one. Ideal for quickly organizing files with consistent naming conventions!
 
-**Example Input:**
-```
-- old_report_2023.txt
-- old_summary.docx
-- old_invoice.pdf
-- some_other_file.txt
-```
 
-**Example Output:**
-```
-- new_report_2023.txt
-- new_summary.docx
-- new_invoice.pdf
-- some_other_file.txt
+| **File Name**              | **Renamed To**          |  
+|----------------------------|-------------------------|  
+| `old_report_2023.txt`      | `new_report_2023.txt`   |  
+| `old_summary.docx`         | `new_summary.docx`      |  
+| `old_invoice.pdf`          | `new_invoice.pdf`       |  
+| `some_other_file.txt`      | `some_other_file.txt`   |  
 ```
