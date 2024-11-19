@@ -5,8 +5,6 @@ currDir = os.path.dirname(os.path.abspath(__file__))
 folder_name = 'test_folder'
 folder_path = os.path.join(currDir, folder_name)
 
-print(folder_path)
-
 files_name = [
     "old_report_2023.txt",
     "old_summary.docx",

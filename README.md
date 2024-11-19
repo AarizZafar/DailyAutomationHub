@@ -13,4 +13,17 @@ This program automates renaming multiple files in a folder by replacing a specif
 | `old_summary.docx`         | `new_summary.docx`      |  
 | `old_invoice.pdf`          | `new_invoice.pdf`       |  
 | `some_other_file.txt`      | `some_other_file.txt`   |  
-```
+
+### Files Backup 
+
+backs up these files to a designated backup folder.
+
+project_directory/
+│
+├── script.py       # Main script file
+├── test_folder/    # Folder containing generated files
+│   ├── old_report_2023.txt
+│   ├── old_summary.docx
+│   ├── old_invoice.pdf
+│   └── some_other_file.txt
+├── BackUpfolder/   # Folder for backed-up files
