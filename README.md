@@ -14,6 +14,8 @@ This program automates renaming multiple files in a folder by replacing a specif
 | `old_invoice.pdf`          | `new_invoice.pdf`       |  
 | `some_other_file.txt`      | `some_other_file.txt`   |  
 
+---
+
 ### Files Backup 
 
 backs up these files to a designated backup folder.
@@ -29,7 +31,7 @@ project_directory/
 │   └── some_other_file.txt
 ├── BackUpfolder/   # Folder for backed-up files
 ```
-
+---
 ### Install ML library And Update All Existing Library
 
 This script automates the process of installing and updating Python packages. It reads package names from a `requirements.txt` file and ensures that all specified packages, as well as currently installed packages, are up-to-date with their latest versions.
