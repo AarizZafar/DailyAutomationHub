@@ -18,6 +18,7 @@ This program automates renaming multiple files in a folder by replacing a specif
 
 backs up these files to a designated backup folder.
 
+```
 project_directory/
 │
 ├── script.py       # Main script file
@@ -27,6 +28,7 @@ project_directory/
 │   ├── old_invoice.pdf
 │   └── some_other_file.txt
 ├── BackUpfolder/   # Folder for backed-up files
+```
 
 ### Install ML library And Update All Existing Library
 
