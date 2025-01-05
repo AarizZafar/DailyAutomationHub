@@ -38,20 +38,20 @@ This script automates the process of installing and updating Python packages. It
 
 ``` requirements.txt ``` - conains the basic and various advange ML, DL, GEN AI library that are required by an ML engineer
 
-## Features
+#### Features
 
 - **Automatic Installation**: Installs packages listed in `requirements.txt`.
 - **Automatic Upgrades**: Upgrades all installed packages to their latest versions.
 - **Concurrency**: Utilizes multiple threads to speed up the installation and upgrade process.
 - **Error Handling**: Captures and reports any installation failures.
 
-## Why Use This Script?
+#### Why Use This Script?
 
 - **Efficiency**: Save time by automating the installation and upgrade of multiple packages.
 - **Consistency**: Ensure all your packages are up-to-date with the latest versions.
 - **Convenience**: Easily manage package installations and upgrades with a single script.
 
-## Usage
+#### Usage
 
 1. Place your package names in a file named `requirements.txt`.
 2. Run the script to install and upgrade packages.
