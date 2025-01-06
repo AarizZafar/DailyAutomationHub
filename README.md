@@ -55,3 +55,31 @@ This script automates the process of installing and updating Python packages. It
 
 1. Place your package names in a file named `requirements.txt`.
 2. Run the script to install and upgrade packages.
+
+---
+
+#### Sequential Execution
+
+The URLs are fetched one after the other. This method is straightforward but can be inefficient for multiple tasks that could be run concurrently.
+
+```
++-------------------+     +-------------------+     +-------------------+
+| Fetch URL 1       | --> | Fetch URL 2       | --> | Fetch URL 3       |
++-------------------+     +-------------------+     +-------------------+
+```
+
+#### Threaded Execution
+
+Using threads, the URLs are fetched concurrently. This method improves performance when there are multiple I/O-bound operations (like HTTP requests) by utilizing multiple threads to perform tasks simultaneously.
+
+```
++-------------------+     +-------------------+     +-------------------+
+| Fetch URL 1       |     | Fetch URL 2       |     | Fetch URL 3       |
++-------------------+     +-------------------+     +-------------------+
+        |                      |                      |
+        +----------+-----------+-----------+----------+
+                   |                       |
+                   v                       v
+                     Concurrent Execution
+```
+
