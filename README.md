@@ -83,3 +83,23 @@ Using threads, the URLs are fetched concurrently. This method improves performan
                      Concurrent Execution
 ```
 
+---
+
+### PostgreSQL Data Upload Script
+
+#### Overview
+Automates CSV data upload into PostgreSQL by cleaning table/column names, generating schemas, creating tables, and bulk inserting data.
+
+#### Steps
+1. **Clean Names:** Standardizes table/column names.
+2. **Schema Mapping:** Converts pandas dtypes to SQL types.
+3. **Table Creation:** Drops and recreates the table.
+4. **Bulk Insert:** Loads data efficiently with `COPY`.
+
+#### Benefits
+- **Fast & Efficient** data loading.
+- **Automated** table setup.
+- **Flexible** for different data schemas.
+
+
+
